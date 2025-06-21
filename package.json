@@ -1,0 +1,30 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "script.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohawed442/Nti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohawed442/Nti/issues"
+  },
+  "homepage": "https://github.com/mohawed442/Nti#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
