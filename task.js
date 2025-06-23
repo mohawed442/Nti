@@ -2,17 +2,17 @@
 let figlet = require("figlet");
 let fs = require("fs");
 let fo ;
-fs.writeFile("./hello.txt","hello world", (ele)=>console.log(ele)) ;
+fs.writeFile("./hello.txt","hello world", (err)=>console.log(err)) ;
 fs.readFile("./hello.txt","utf-8",(err , data)=>{
 fo = data ;
 
 figlet(fo, function (err, data) {
-  if (err) {
-    console.log("Something went wrong...");
-    console.dir(err);
-    return;
-  }
-  console.log(data);
+    if (err) {
+        console.log("Something went wrong...");
+        console.dir(err);
+        return;
+    }
+    console.log(data);
 })
 })
 
